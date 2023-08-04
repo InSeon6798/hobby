@@ -1,0 +1,113 @@
+h1 {
+    padding: 70px;
+    border: 1px solid #4CAF50;
+    text-shadow: 2px 2px gray;
+}
+
+body {
+    background-color: lightblue;
+    color: black;
+    background-color: powderblue;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 30px;
+    font-family: serif;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+div {
+    font-family: serif;
+    font-size: 20px;
+    height: 200px;
+    width: 50;
+    text-align: center;
+
+}
+
+p.text {
+    background-color: lightgrey;
+    color: blue;
+}
+
+p.test1 {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+    animation-name: example;
+    transition: width 2s, height 2s;
+
+}
+
+p.test1:hover {
+    transform: rotate(180deg);
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes example {
+    from {
+        color: black;
+    }
+
+    to {
+        color: yellow;
+    }
+}
+
+#ew {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+}
+
+#ew td,
+#ew th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#ew tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#ew tr:hover {
+    background-color: #ddd;
+}
+
+#ew th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+table .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+table:hover .tooltiptext {
+    visibility: visible;
+}
+
+a {
+    float: right;
+
+}
